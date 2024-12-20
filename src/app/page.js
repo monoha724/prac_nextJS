@@ -6,7 +6,15 @@ export default function Home() {
     <div>
       <Header />
       <h1>다시 해보자고</h1>
-      <Link href="/about">about</Link>
+      <p>
+        <Link href="/meals">MEALS</Link>
+      </p>
+      <p>
+        <Link href="/meals/share">SHARE MEAL</Link>
+      </p>
+      <p>
+        <Link href="/community">COMMUNITY</Link>
+      </p>
     </div>
   );
 }
